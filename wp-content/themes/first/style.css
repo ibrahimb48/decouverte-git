@@ -1,0 +1,28 @@
+/*
+    Theme Name: fist
+    Author: Ibrahim B
+    Descripton: découverte des thème wordpress
+    */
+    .bg-primary{
+        background:rgb(137, 184, 137) !important;
+    }
+
+    .home .card{
+        animation: apparition 1s forwards;
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    .home .card-1{
+        animation-delay: 1s;
+    }
+    .home .card-2{
+        animation-delay: 2s;
+    }
+    @keyframes apparition {
+        to{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+  
+    
